@@ -143,3 +143,13 @@ slightly smaller badges for small devices
         text-align: center;
     }
 }
+
+@media (max-width: 767px){
+    .planet-box{
+        transition: 0.3s ease;
+    }
+
+    .planet-box:hover{
+        transform: scale(1.05);
+    }
+}
