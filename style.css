@@ -8,21 +8,38 @@ body{
 }
 
 /* navbar */
-.navbar {
+.nav-bg{
     transition: background-color .3s ease, box-shadow .3s ease;
     background: transparent;
 }
 
-.navbar.scrolled {
-    background-color: rgba(74, 74, 74, 0.5);
-    backdrop-filter: blur(10px);
+.nav-bg.scrolled {
+    background: rgba(74, 74, 74, 0.616);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-bg li{
+    transition: 0.4s ease; 
+}
+
+.nav-bg li:hover{
+    /* transform: scale(1.1); */
+    /* background: rgba(123, 123, 123, 0.5);
+    backdrop-filter: blur(15px); */
+    color: #ffffff;
+        text-shadow:
+            0 0 5px #ffffff,
+            0 0 15px #ffffff,
+            0 0 20px #ffffff;
 }
 
 /* humburger mobile */
 @media (max-width: 991.98px) {
     .navbar {
         /* Warna transparan agar background bisa terlihat */
-        background: rgba(74, 74, 74, 0.5);
+        /* background: rgba(74, 74, 74, 0.5); */
         /* Efek blur pada latar belakang */
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -30,6 +47,11 @@ body{
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding: 15px 0 15px 0;
     }
+
+    .nav-bg {
+            background: rgba(74, 74, 74, 0.616);
+            backdrop-filter: blur(15px);
+        }
 }
 
 /* hero */
@@ -45,22 +67,14 @@ body{
 }
 
 .box-parent-home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.148)) ,url(img/bg-dark-blue.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.148)) ,url(img/bg-dark-blue.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     padding-bottom: 100px;
 }
 
 .container-manual{
     padding: 0 100px;
-}
-
-.btn-view-gallery{
-    transition: 0.3s ease;
-}
-
-.btn-view-gallery:hover{
-    transform: scale(1.02);
 }
 
 /* content */
@@ -78,6 +92,10 @@ body{
     transform: translateY(-15px);
     /* box-shadow: 0 0 25px rgba(0, 110, 255, 0.557); */
     /* transform: scale(1.05); */
+}
+
+.planet-box {
+    cursor: pointer;
 }
 
 /* Nomer untuk setiap Planet */
