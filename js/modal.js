@@ -1,27 +1,3 @@
-// navbar
-window.addEventListener("scroll", function () {
-  const nav = document.getElementById("nav-bg");
-  if (window.scrollY > 10) {
-    nav.classList.add("scrolled");
-  } else {
-    nav.classList.remove("scrolled");
-  }
-});
-
-// efek typing di hero section
-const text = "Explore The Beauty of Space";
-let index = 0;
-
-function typeEffect() {
-  if (index < text.length) {
-    document.querySelector(".type-text").innerHTML += text.charAt(index);
-    index++;
-    setTimeout(typeEffect, 50);
-  }
-}
-
-typeEffect();
-
 // Popup detail modal
 const planetData = {
   Merkurius: "Planet paling dekat dengan Matahari.",

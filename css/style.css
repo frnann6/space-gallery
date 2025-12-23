@@ -9,6 +9,10 @@ body{
 
 /* navbar */
 .nav-bg{
+    background: rgba(74, 74, 74, 0.616);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     transition: background-color .3s ease, box-shadow .3s ease;
     background: transparent;
 }
@@ -40,6 +44,7 @@ body{
     .navbar {
         /* Warna transparan agar background bisa terlihat */
         /* background: rgba(74, 74, 74, 0.5); */
+        
         /* Efek blur pada latar belakang */
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -56,7 +61,7 @@ body{
 
 /* hero */
 .hero-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 48px;
     color: white;
 }
@@ -67,14 +72,27 @@ body{
 }
 
 .box-parent-home{
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.148)) ,url(img/bg-dark-blue.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.148)) ,url(/img/bg-dark-blue.jpg); */
     background-size: cover;
-    background-position: center; */
+    background-position: center;
     padding-bottom: 100px;
 }
 
 .container-manual{
     padding: 0 100px;
+}
+
+.hero .type-text{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    animation: blinkCursor 0.8s steps(1) infinite;
+}
+
+@keyframes blinkCursor{
+    0%, 50% { border-color: #ffffffa2; }
+    51%, 100% { border-color: transparent; }
 }
 
 /* content */
@@ -96,6 +114,10 @@ body{
 
 .planet-box {
     cursor: pointer;
+}
+
+.gallery{
+    margin-top: 90px;
 }
 
 /* Nomer untuk setiap Planet */
@@ -157,8 +179,8 @@ slightly smaller badges for small devices
         padding: 20px;
     }
 
-    .gallery .judul-gallery{
-        text-align: center;
+    .box-parent-home{
+        padding: 0;
     }
 }
 
@@ -169,5 +191,9 @@ slightly smaller badges for small devices
 
     .planet-box:hover{
         transform: scale(1.05);
+    }
+
+    .gallery .judul-gallery {
+    text-align: center;
     }
 }
