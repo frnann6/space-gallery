@@ -17,10 +17,59 @@
 </head>
 
 <body>
-    <div class="container py-5">
-        <a href="index.html" class="btn btn-secondary">Back</a>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark py-2 fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-semibold d-block d-md-none ms-4" href="#">Space Gallery</a>
+            <button class="navbar-toggler text-primary mx-s" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                <ul id="nav-bg" class="navbar-nav mx-auto nav-bg px-4 mt-4 rounded-4 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#gallery">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Lorem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
 
-        <img src="planet-img/bumi.jpg" alt="">
+    <div class="container mt-5 py-5">
+        <!-- <a href="index.html#gallery" class="btn btn-secondary">Back</a> -->
+
+        <div class="row text-center mt-4 container-two" id="blogs">
+            <div class="tes mx-auto judul">
+                <h1 class="text-white fw-bold title">5 Fakta menarik tentang Planet <span id="planetName"></span>
+                    yang
+                    perlu
+                    kalian
+                    ketahui</h1>
+                <p class="text-white"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 448 512" class="me-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                    </svg>Posted on <span id="posted"></span>, <span id="years"></span> by Fernanda Dwi Cahaya
+                </p>
+            </div>
+            <div class="col text-white">
+                <img src="planets-blog/bumi-blog.jpg" alt="" class="rounded-4">
+            </div>
+            <div class="desc">
+                <p class="mx-auto text-white mt-5 pendahuluan" id="pendahuluan"></p>
+            </div>
+            <div class="facts mx-auto text-start mt-4">
+            </div>
+        </div>
     </div>
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -28,10 +77,8 @@
         </script>
 
     <!-- js -->
-    <script src="planets.js"></script>
-
-    <!-- Tilt js -->
-    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="module" src="js/navbar.js"></script>
+    <script type="module" src="js/planets.js"></script>
 </body>
 
 </html>

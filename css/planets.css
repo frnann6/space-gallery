@@ -1,3 +1,134 @@
 body{
-    background-color: black;
+    background-color: #212529;
+}
+
+/* NAVBAR BASE*/
+.navbar {
+    background-color: transparent;
+    transition: background-color .3s ease, box-shadow .3s ease;
+}
+
+/*NAVBAR SCROLLED STATE*/
+.navbar .scrolled {
+    background-color: rgba(74, 74, 74, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+/* NAV ITEM HOVER*/ 
+.navbar li {
+    transition: color .3s ease, text-shadow .3s ease;
+}
+
+.navbar li:hover {
+    color: #ffffff;
+    text-shadow:
+        0 0 5px #ffffff,
+        0 0 15px #ffffff,
+        0 0 20px #ffffff;
+}
+
+/* MOBILE NAVBAR*/
+@media (max-width: 991.98px) {
+    .navbar {
+        background-color: rgba(74, 74, 74, 0.189);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 15px 0;
+    }
+
+    .navbar .scrolled {
+            background-color: rgba(255, 0, 0, 0) !important;
+            backdrop-filter: none !important;
+            -webkit-backdrop-filter: none !important;
+        }
+
+    /* mobile scrolled */
+    .navbar.scrolled {
+        background-color: rgba(74, 74, 74, 0.189);
+    }
+}
+
+img {
+    width: 725px;
+    height: 500px;
+}
+
+.facts{
+    width: 735px;
+}
+
+.judul .title{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth; */
+}
+
+.facts p,
+.desc p
+{
+    line-height: 1.9;
+}
+
+.judul{
+    text-align: left;
+}
+
+.desc p{
+    text-align: left;
+}
+
+.tes{
+    width: 725px;
+}
+
+.pendahuluan{
+    width: 55%;
+}
+
+/* responsive */
+@media (max-width: 1256px){
+    .pendahuluan{
+        width: 711px;
+    }
+}
+
+@media (max-width: 767px){
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pendahuluan{
+        width: 100%;
+    }
+}
+
+@media (max-width: 623px){
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    img{
+        width:100%;
+    }
+
+    .container-two{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .judul{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 390px){
+    img{
+        width: 100%;
+        height: 230px;
+    }
 }

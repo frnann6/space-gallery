@@ -10,16 +10,33 @@ const planetData = {
   Neptunus: "Planet terjauh & sangat dingin.",
 };
 
-document.querySelectorAll(".planet-box").forEach((box) => {
-  box.addEventListener("click", () => {
-    const title = box.querySelector("h5").innerText;
-    const img = box.querySelector("img").src;
+// Use event delegation so dynamically-inserted .planet-box elements are handled
+document.addEventListener("click", (e) => {
+  const box = e.target.closest(".planet-box");
+  if (!box) return;
 
-    document.getElementById("planetTitle").innerText = title;
-    document.getElementById("planetImage").src = img;
-    document.getElementById("planetDesc").innerText = planetData[title];
+  const title = box.querySelector("h5")?.innerText || "";
+  const img = box.querySelector("img")?.src || "";
+  const slug = box.dataset.slug || "";
 
-    const modal = new bootstrap.Modal(document.getElementById("planetModal"));
-    modal.show();
-  });
+  const titleEl = document.getElementById("planetTitle");
+  const imageEl = document.getElementById("planetImage");
+  const descEl = document.getElementById("planetDesc");
+  if (titleEl) titleEl.innerText = title;
+  if (imageEl) imageEl.src = img;
+  if (descEl) descEl.innerText = planetData[title] || "";
+
+  // update Read more link
+  const readMoreLink = document.querySelector(
+    "#planetModal .modal-body a.btn.btn-primary"
+  );
+  if (readMoreLink && slug) {
+    readMoreLink.setAttribute(
+      "href",
+      `planets-detail.html?planet=${encodeURIComponent(slug)}`
+    );
+  }
+
+  const modal = new bootstrap.Modal(document.getElementById("planetModal"));
+  modal.show();
 });
