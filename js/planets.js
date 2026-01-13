@@ -3,22 +3,45 @@ const planets = [
   {
     slug: "mercury",
     nama: "Merkurius",
-    date: "January",
+    date: "January 13",
     year: 2026,
-    img: "planet-img/mercury.jpg",
+    img: "planet-images/mercury.jpg",
     pendahuluan:
-      "Merkurius adalah planet paling dekat dengan Matahari dan memiliki permukaan berbatu penuh kawah.",
+      "Berikut 5 fakta menarik tentang planet Merkurius, mari kita simak!",
     facts: [
       {
-        title: "Ukuran dan Orbit",
+        title: "Merkurius adalah Planet Terdekat dari Matahari",
         paragraf: [
-          "Merkurius adalah planet terkecil di tata surya dan membutuhkan sekitar 88 hari untuk menyelesaikan satu orbit mengelilingi Matahari.",
+          "Merkurius merupakan planet yang paling dekat dengan Matahari, dengan jarak rata-rata sekitar 58 juta kilometer. Karena jaraknya yang sangat dekat ini, Merkurius mengelilingi Matahari jauh lebih cepat dibanding planet lain. Satu tahun di Merkurius hanya berlangsung sekitar 88 hari Bumi, jadi kalau kamu tinggal di sana, ulang tahunmu bakal datang lebih sering.",
+          "Namun, jarak yang dekat dengan Matahari tidak berarti Merkurius selalu panas sepanjang waktu. Kedekatan ini memang membuat siang hari di Merkurius sangat ekstrem, tapi kondisi planet ini ternyata jauh lebih rumit dan penuh kejutan dibanding yang banyak orang bayangkan.",
         ],
       },
       {
-        title: "Suhu Ekstrem",
+        title: "Perbedaan Suhu Paling Ekstrem",
         paragraf: [
-          "Merkurius mengalami suhu siang dan malam yang sangat ekstrem karena hampir tidak memiliki atmosfer penahan panas.",
+          "Merkurius memegang rekor sebagai planet dengan perbedaan suhu paling ekstrem di Tata Surya. Saat siang hari, suhu permukaannya bisa mencapai sekitar 430°C, cukup panas untuk melelehkan timah. Tapi saat malam tiba, suhu bisa turun drastis hingga sekitar -180°C, jauh lebih dingin dari Antarktika.",
+          "Hal ini terjadi karena Merkurius hampir tidak memiliki atmosfer. Tanpa atmosfer yang cukup tebal, panas dari Matahari tidak bisa disimpan. Akibatnya, panas langsung hilang saat malam, membuat Merkurius seperti “dipanggang” dan “dibekukan” secara bergantian.",
+        ],
+      },
+      {
+        title: "Merkurius Hampir Tidak Memiliki Atmosfer",
+        paragraf: [
+          "Berbeda dengan Bumi, Merkurius tidak punya atmosfer tebal yang bisa melindungi permukaannya. Yang dimilikinya hanyalah lapisan gas yang sangat tipis, disebut eksosfer. Lapisan ini terbentuk dari partikel-partikel yang terlepas dari permukaan akibat hantaman meteorit dan radiasi Matahari.",
+          "Karena atmosfernya sangat tipis, Merkurius tidak mampu melindungi diri dari benda luar angkasa. Itulah sebabnya permukaan Merkurius dipenuhi kawah, mirip seperti Bulan. Hampir tidak ada proses alam seperti angin atau hujan yang bisa menghapus bekas tumbukan tersebut.",
+        ],
+      },
+      {
+        title: "Satu Hari di Merkurius Lebih Lama dari Satu Tahunnya",
+        paragraf: [
+          "Di Merkurius, satu hari terasa sangat lama. Planet ini berputar sangat lambat pada porosnya. Satu hari Matahari di Merkurius—dari satu matahari terbit ke matahari terbit berikutnya—berlangsung sekitar 176 hari Bumi.",
+          "Yang menarik, satu tahun Merkurius hanya 88 hari Bumi. Artinya, satu hari di Merkurius lebih panjang dari satu tahunnya sendiri. Fenomena unik ini terjadi karena kombinasi rotasi yang lambat dan orbit yang cepat mengelilingi Matahari.",
+        ],
+      },
+      {
+        title: "Merkurius Punya Medan Magnet ",
+        paragraf: [
+          "Meskipun ukurannya kecil dan tampak “mati”, Merkurius ternyata memiliki medan magnet sendiri. Ini cukup mengejutkan karena medan magnet biasanya dihasilkan oleh inti planet yang aktif, seperti yang dimiliki Bumi. Penemuan ini menunjukkan bahwa bagian dalam Merkurius masih memiliki inti besi cair.",
+          "Medan magnet Merkurius memang jauh lebih lemah dibanding Bumi, tetapi keberadaannya membantu ilmuwan memahami struktur internal planet ini. Fakta ini juga menunjukkan bahwa Merkurius bukan sekadar batu mati, melainkan planet dengan sejarah dan dinamika internal yang kompleks.",
         ],
       },
     ],
@@ -26,22 +49,45 @@ const planets = [
   {
     slug: "venus",
     nama: "Venus",
-    date: "january",
+    date: "january 13",
     year: 2026,
-    img: "planet-img/venus.jpg",
+    img: "planet-images/venus.jpg",
     pendahuluan:
-      "Venus adalah saudara dekat Bumi dalam ukuran tetapi memiliki atmosfer yang sangat tebal dan suhu permukaan yang sangat tinggi.",
+      "Venus merupakan planet kedua dari Matahari. Venus sering disebut sebagai planet kembaran Bumi karena ukurannya hampir sama. Namun jangan tertipu oleh kemiripannya itu. Di balik tampilannya yang indah dan terang di langit malam, Venus justru merupakan salah satu planet paling ekstrem dan tidak ramah di Tata Surya. Banyak hal di Venus berjalan “terbalik” dibanding Bumi, dan itulah yang membuat planet ini sangat menarik untuk dipelajari.",
     facts: [
       {
-        title: "Efek Rumah Kaca",
+        title: "Venus adalah Planet Terpanas di Tata Surya",
         paragraf: [
-          "Atmosfer Venus mengandung CO2 dalam jumlah besar sehingga menyebabkan efek rumah kaca yang ekstrem.",
+          "Meskipun bukan planet yang paling dekat dengan Matahari, Venus justru menjadi planet terpanas di Tata Surya. Suhu permukaannya bisa mencapai sekitar 465°C, cukup panas untuk melelehkan logam seperti timah. Yang mengejutkan, suhu ini hampir sama di seluruh permukaan Venus, baik siang maupun malam.",
+          "Penyebabnya adalah atmosfer Venus yang sangat tebal dan kaya karbon dioksida. Atmosfer ini menciptakan efek rumah kaca ekstrem, yang menjebak panas Matahari dan tidak membiarkannya keluar. Jadi, sekali panas masuk, panas itu terperangkap selamanya.",
         ],
       },
       {
-        title: "Rotasi Lambat",
+        title: "Atmosfer Venus Sangat Tebal dan Beracun",
         paragraf: [
-          "Venus berotasi sangat lambat dan berputar ke arah yang berlawanan dibanding planet kebanyakan.",
+          "Atmosfer Venus terdiri hampir seluruhnya karbon dioksida, dengan awan tebal asam sulfat yang menyelimuti planet ini. Awan tersebut memantulkan cahaya Matahari dengan sangat baik, sehingga Venus tampak terang jika dilihat dari Bumi. Namun di balik keindahannya, atmosfer ini sangat berbahaya",
+          "Tekanan udara di permukaan Venus sekitar 90 kali lebih besar daripada Bumi, setara dengan tekanan di kedalaman hampir 1 km di bawah laut Bumi. Jika manusia berada di sana, tubuhnya akan hancur bahkan sebelum panasnya terasa",
+        ],
+      },
+      {
+        title: "Venus Berputar Terbalik Dibanding Planet Lain",
+        paragraf: [
+          "Venus memiliki arah rotasi yang sangat aneh. Jika kebanyakan planet berputar dari barat ke timur, Venus justru berputar dari timur ke barat. Artinya, jika kamu berdiri di Venus, Matahari akan terbit dari barat dan terbenam di timur.",
+          "Para ilmuwan menduga rotasi terbalik ini mungkin disebabkan oleh tabrakan besar di masa lalu atau efek atmosfer tebal yang memengaruhi rotasi planet. Hingga kini, penyebab pastinya masih menjadi misteri yang terus diteliti.",
+        ],
+      },
+      {
+        title: "Satu Hari di Venus Lebih Panjang dari Satu Tahunnya",
+        paragraf: [
+          "Venus berputar sangat lambat pada porosnya. Satu hari di Venus (satu kali rotasi penuh) berlangsung sekitar 243 hari Bumi. Sementara itu, Venus hanya membutuhkan 225 hari Bumi untuk mengelilingi Matahari satu kali.",
+          "Artinya, satu hari di Venus lebih lama daripada satu tahunnya sendiri. Ini membuat siklus siang dan malam di Venus sangat ekstrem, dengan periode siang yang sangat panjang dan panas.",
+        ],
+      },
+      {
+        title: "Venus Dipenuhi Aktivitas Vulkanik",
+        paragraf: [
+          "Permukaan Venus dipenuhi oleh ribuan gunung berapi, lebih banyak dibanding planet mana pun di Tata Surya. Banyak bukti menunjukkan bahwa Venus masih aktif secara geologis hingga relatif baru, dan mungkin masih memiliki letusan gunung berapi hingga sekarang.",
+          "Lava dari aktivitas vulkanik ini dipercaya ikut membentuk atmosfer Venus yang kaya karbon dioksida. Tanpa adanya proses seperti lempeng tektonik di Bumi untuk “membuang” gas tersebut, panas dan gas terus menumpuk, membuat Venus menjadi planet ekstrem seperti sekarang.",
         ],
       },
     ],
@@ -51,7 +97,7 @@ const planets = [
     nama: "Bumi",
     date: "January 6",
     year: 2026,
-    img: "planets-blog/bumi-blog.jpg",
+    img: "planet-blogs/bumi-blog.jpg",
     pendahuluan:
       "Tahukah kamu, kalau bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang diketahui mendukung kehidupan di alam semesta. Bumi menyimpan banyak fakta menarik yang perlu untuk diketahui. Mari simak bersama!",
     facts: [

@@ -3,7 +3,7 @@ body{
 }
 
 /* NAVBAR BASE*/
-.navbar {
+.nav-bg {
     background-color: transparent;
     transition: background-color .3s ease, box-shadow .3s ease;
 }
@@ -73,6 +73,10 @@ img {
 
 .judul{
     text-align: left;
+}
+
+.posted{
+    color: rgb(109, 209, 255);
 }
 
 .desc p{

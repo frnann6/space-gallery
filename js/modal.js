@@ -1,8 +1,9 @@
 // Popup detail modal
 const planetData = {
   Merkurius: "Planet paling dekat dengan Matahari.",
-  Venus: "Planet terpanas karena efek rumah kaca.",
-  Bumi: "Satu-satunya planet yang mendukung kehidupan.",
+  Venus:
+    "Venus merupakan planet kedua dari Matahari. Venus sering disebut sebagai...",
+  Bumi: "Tahukah kamu, kalau bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang...",
   Mars: "Disebut planet merah.",
   Jupiter: "Planet terbesar di tata surya.",
   Saturnus: "Dikenal dengan cincinnya.",

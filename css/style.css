@@ -8,7 +8,7 @@ body{
 }
 
 /* NAVBAR BASE*/
-.navbar {
+.nav-bg {
     background-color: transparent;
     transition: background-color .3s ease, box-shadow .3s ease;
 }
@@ -74,8 +74,16 @@ body{
     padding-bottom: 100px;
 }
 
-.btn-view-gallery{
+.btn-view-blogs{
+    color: white;
+    background-color: #0d6dfdb1 !important;
+    transition: 0.3s ease
+}
+
+.btn-view-blogs:hover{
+    color: white;
     background-color: #0D6EFD !important;
+    transform: scale(1.02);
 }
 
 .container-manual{
