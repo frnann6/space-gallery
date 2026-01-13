@@ -134,6 +134,10 @@ body{
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.242);
 }
 
+.arrow{
+    color: rgb(109, 162, 255);
+}
+
 /* Nomer untuk setiap Planet */
 
 /* numbered circular badge for gallery columns
