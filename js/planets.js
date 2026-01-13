@@ -234,7 +234,7 @@ function renderPlanetDetail() {
     planet.facts.forEach((fact, index) => {
       const factHtml = `
         <div class="fact mb-4">
-          <h5 class="text-white fw-bold">${index + 1}. ${fact.title}</h5>
+          <h5 class="text-white title">${index + 1}. ${fact.title}</h5>
           ${fact.paragraf.map((p) => `<p class="text-white">${p}</p>`).join("")}
         </div>
       `;
