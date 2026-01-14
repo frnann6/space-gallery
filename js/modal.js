@@ -1,6 +1,7 @@
 // Popup detail modal
 const planetData = {
-  Merkurius: "Planet paling dekat dengan Matahari.",
+  Merkurius:
+    "Sebagai planet yang paling dekat dengan Matahari, planet Merkurius mempunyai banyak...",
   Venus:
     "Venus merupakan planet kedua dari Matahari. Venus sering disebut sebagai...",
   Bumi: "Tahukah kamu, kalau bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang...",

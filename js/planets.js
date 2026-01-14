@@ -7,7 +7,7 @@ const planets = [
     year: 2026,
     img: "planet-images/mercury.jpg",
     pendahuluan:
-      "Berikut 5 fakta menarik tentang planet Merkurius, mari kita simak!",
+      "Sebagai planet yang paling dekat dengan Matahari, planet Merkurius mempunyai banyak keunikan di dalamnya. Bentuk serta ukurannya mirip sekali dengan Bulan. Selain itu, ketika revolusi atau mengitari Matahari dan juga rotasinya (berputar pada porosnya) sangat jauh dan lama, berbeda dengan Bumi.",
     facts: [
       {
         title: "Merkurius adalah Planet Terdekat dari Matahari",
