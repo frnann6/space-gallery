@@ -97,7 +97,7 @@ const planets = [
     nama: "Bumi",
     date: "January 6",
     year: 2026,
-    img: "planet-blogs/bumi-blog.jpg",
+    img: "planet-images/bumi.jpg",
     pendahuluan:
       "Tahukah kamu, kalau bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang diketahui mendukung kehidupan di alam semesta. Bumi menyimpan banyak fakta menarik yang perlu untuk diketahui. Mari simak bersama!",
     facts: [

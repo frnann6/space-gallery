@@ -109,7 +109,7 @@ body{
     backdrop-filter: blur(8px);
 }
 
-/* gallery */
+/* Blogs */
 .planet-box{
     transition: 0.3s ease;
 }
@@ -124,11 +124,11 @@ body{
     cursor: pointer;
 }
 
-.gallery{
+.blogs{
     margin-top: 90px;
 }
 
-.gallery-card{
+.blogs-card{
     background-color: #343A40;
     /* background-color: rgba(255, 255, 255, 0.093); */
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.242);
@@ -195,7 +195,7 @@ slightly smaller badges for small devices
         transform: scale(1.05);
     }
 
-    .gallery .judul-gallery {
+    .blogs .judul-blogs {
     text-align: center !important;
     }
 }

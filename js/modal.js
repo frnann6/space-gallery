@@ -16,7 +16,7 @@ document.addEventListener("click", (e) => {
   const box = e.target.closest(".planet-box");
   if (!box) return;
 
-  const title = box.querySelector("h5")?.innerText || "";
+  const title = box.dataset.name;
   const img = box.querySelector("img")?.src || "";
   const slug = box.dataset.slug || "";
 
