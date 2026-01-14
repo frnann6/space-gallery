@@ -8,7 +8,8 @@ const planetData = {
   Mars: "Mars dikenal sebagai Planet merah, bukan hanya karena warnanya yang mencolok, tetapi juga karena planet ini...",
   Jupiter:
     'Jupiter adalah planet terbesar di Tata Surya dan sering dijuluki sebagai "raja planet". Ukurannya yang masif membuatnya...',
-  Saturnus: "Dikenal dengan cincinnya.",
+  Saturnus:
+    "Saturnus dikenal sebagai planet paling ikonik di Tata Surya berkat cincin indah yang mengelilinginya. Namun keindahan Saturnus...",
   Uranus: "Berputar menyamping.",
   Neptunus: "Planet terjauh & sangat dingin.",
 };

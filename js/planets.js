@@ -232,22 +232,45 @@ const planets = [
   {
     slug: "saturn",
     nama: "Saturnus",
-    date: "January",
+    date: "January 14",
     year: 2026,
-    img: "planet-img/Saturnus.jpg",
+    img: "planet-images/Saturnus.jpg",
     pendahuluan:
-      "Saturnus terkenal karena cincin-cincinnya yang spektakuler, terbuat dari partikel es dan batuan.",
+      "Saturnus dikenal sebagai planet paling ikonik di Tata Surya berkat cincin indah yang mengelilinginya. Namun keindahan Saturnus bukan hanya soal tampilan. Di balik cincin-cincinnya, planet gas raksasa ini menyimpan banyak fenomena ekstrem, mulai dari kepadatan yang rendah, badai raksasa, hingga sistem bulan yang sangat kompleks",
     facts: [
       {
-        title: "Cincin Kompleks",
+        title: "Cincin Saturnus Bukanlah Benda Padat",
         paragraf: [
-          "Cincin Saturnus terdiri dari banyak sub-cincin dan variasi ukuran partikel.",
+          "Cincin Saturnus terlihat seperti piringan besar yang utuh, tetapi sebenarnya tersusun dari miliaran pecahan es dan batu. Ukuran partikel ini bervariasi, dari sekecil butiran pasir hingga sebesar rumah.",
+          "Meskipun lebarnya bisa mencapai ratusan ribu kilometer, cincin Saturnus sangat tipis—di beberapa bagian bahkan hanya setebal puluhan meter. Jika dilihat dari samping, cincin ini hampir tidak terlihat sama sekali.",
         ],
       },
       {
-        title: "Kepadatan Rendah",
+        title: 'Saturnus adalah Planet Paling "Ringan"',
         paragraf: [
-          "Saturnus memiliki kepadatan rendah; jika ada lautan yang cukup besar, ia akan mengapung.",
+          "Saturnus memiliki kepadatan yang sangat rendah dibanding planet lain. Secara teori, jika ada lautan yang cukup besar, Saturnus bisa mengapung di atas air. Tentu saja ini hanya perumpamaan, karena tidak ada air sebesar itu di alam semesta.",
+          "Kepadatan rendah ini disebabkan oleh komposisi Saturnus yang didominasi gas hidrogen dan helium. Hal ini membuat Saturnus menjadi planet gas raksasa yang terlihat megah, tetapi “ringan” jika dibandingkan ukurannya.",
+        ],
+      },
+      {
+        title: "Saturnus Memiliki Badai Berbentuk Heksagon",
+        paragraf: [
+          "Di kutub utara Saturnus terdapat fenomena atmosfer yang sangat unik: badai berbentuk heksagon. Pola ini pertama kali ditemukan oleh wahana Voyager dan kemudian dipelajari lebih detail oleh misi Cassini.",
+          "Bentuk heksagon ini sangat stabil dan telah bertahan selama puluhan tahun. Hingga kini, para ilmuwan masih meneliti bagaimana aliran angin di Saturnus bisa membentuk pola geometris sempurna seperti itu secara alami.",
+        ],
+      },
+      {
+        title: "Saturnus Memiliki Bulan dengan Potensi Kehidupan",
+        paragraf: [
+          "Saturnus memiliki lebih dari 140 bulan, dan salah satu yang paling menarik adalah Enceladus. Bulan ini menyemburkan geyser air dan es dari bawah permukaannya ke luar angkasa.",
+          "Data menunjukkan bahwa di bawah lapisan es Enceladus terdapat lautan air cair yang hangat, lengkap dengan senyawa kimia penting bagi kehidupan. Ini menjadikan Enceladus salah satu lokasi paling menjanjikan dalam pencarian kehidupan di luar Bumi.",
+        ],
+      },
+      {
+        title: "Saturnus Berperan Penting dalam Evolusi Tata Surya",
+        paragraf: [
+          "Sebagai planet raksasa, Saturnus memiliki pengaruh gravitasi besar yang membantu membentuk struktur Tata Surya. Bersama Jupiter, Saturnus memengaruhi orbit asteroid, komet, dan planet lain sejak masa awal pembentukannya.",
+          "Tanpa Saturnus dan Jupiter, Tata Surya mungkin akan memiliki susunan planet yang sangat berbeda. Dengan kata lain, Saturnus bukan hanya planet yang indah, tetapi juga salah satu arsitek utama Tata Surya.",
         ],
       },
     ],
