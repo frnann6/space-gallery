@@ -140,22 +140,45 @@ const planets = [
   {
     slug: "mars",
     nama: "Mars",
-    date: "January",
+    date: "January 14",
     year: 2026,
-    img: "planet-img/mars.jpg",
+    img: "planet-images/mars.jpg",
     pendahuluan:
-      "Mars dikenal sebagai ‘planet merah’ dan menjadi target penelitian untuk mencari tanda-tanda kehidupan di masa lalu.",
+      "Mars dikenal sebagai Planet merah, bukan hanya karena warnanya yang mencolok, tetapi juga karena planet ini menyimpan banyak petunjuk tentang masa lalu Tata Surya, bahkan kemungkinan kehidupan",
     facts: [
       {
-        title: "Lembah dan Gunung",
+        title: 'Warna merah Mars Berasal dari "Karat"',
         paragraf: [
-          "Mars memiliki lembah besar dan gunung berapi terbesar di tata surya, Olympus Mons.",
+          "Warna merah khas Mars berasal dari oksida besi di permukaannya—secara sederhana, Mars dipenuhi debu yang mirip karat. Ketika besi bereaksi dengan oksigen selama jutaan tahun, terbentuklah lapisan debu merah yang menyelimuti hampir seluruh planet.",
+          "Debu ini sangat halus dan mudah terangkat oleh angin. Akibatnya, badai debu di Mars bisa berlangsung berminggu-minggu bahkan menutupi seluruh planet, membuat Mars terlihat semakin merah jika diamati dari luar angkasa.",
         ],
       },
       {
-        title: "Lapisan Es",
+        title: "Mars Pernah Memiliki Air Mengalir di Permukaannya",
         paragraf: [
-          "Di kutub Mars terdapat lapisan es yang mengandung air beku dan es kering (CO2).",
+          "Bukti ilmiah menunjukkan bahwa Mars di masa lalu pernah memiliki sungai, danau, bahkau lautan. Jejak saluran air kuno, delta sungai, dan mineral yang hanya terbentuk di lingkungan basah telah ditemukan oleh berbagai wahana antariksa",
+          "Hal ini menandakan bahwa Mars dulu jauh lebih hangat dan memiliki atmosfer lebih tebal. Meski sekarang air cair hampir tidak mungkin bertahan lama di permukaan, sebagian besar air Mars diyakini masih tersimpan dalam bentuk es di bawah tanah dan kutub planet",
+        ],
+      },
+      {
+        title: "Mars Memiliki Gunung Tertinggi di Tata Surya",
+        paragraf: [
+          "Mars adalah rumah bagi Olympus Mons, gunung berapi terbesar dan tertinggi di Tata Surya. Tingginya sekitar 22km, hampir tiga kali lipat Gunung Everest. Lebarnya pun luar biasa, dengan diameter mencapai ratusan kilometer.",
+          "Gunung ini bisa tumbuh sebesar itu karena gravitasi Mars lebih lemah dan tidak adanya lempeng tektonik seperti di Bumi. Akibatnya, lava terus menumpuk di satu titik selama jutaan tahun tanpa “tergeser” ke tempat lain.",
+        ],
+      },
+      {
+        title: "Atmosfer Mars Sangat Tipis dan Tidak Stabil",
+        paragraf: [
+          "Atmosfer Mars sangat tipis, hanya sekitar 1% dari ketebalan atmosfer Bumi. Komposisinya didominasi karbon dioksida, dengan tekanan udara yang terlalu rendah untuk mempertahankan air cair dalam waktu lama.",
+          "Karena atmosfernya tipis, Mars tidak memiliki perlindungan yang cukup dari radiasi Matahari dan kosmik. Inilah salah satu alasan mengapa air dan panas Mars perlahan menghilang ke luar angkasa selama miliaran tahun.",
+        ],
+      },
+      {
+        title: "Mars adalah Target Utama Kolonisasi Manusia",
+        paragraf: [
+          "Dibanding planet lain, Mars dianggap sebagai planet paling realistis untuk dihuni manusia di masa depan. Panjang harinya mirip Bumi (sekitar 24,6 jam), dan terdapat air dalam bentuk es yang bisa dimanfaatkan.",
+          "Meski begitu, hidup di Mars tidak akan mudah. Tantangan seperti radiasi tinggi, suhu ekstrem, dan atmosfer tipis harus diatasi dengan teknologi canggih. Namun bagi ilmuwan, Mars adalah langkah pertama manusia untuk menjadi spesies antarplanet.",
         ],
       },
     ],
@@ -163,22 +186,45 @@ const planets = [
   {
     slug: "jupiter",
     nama: "Jupiter",
-    date: "January",
+    date: "January 14",
     year: 2026,
-    img: "planet-img/jupiter.jpg",
+    img: "planet-images/jupiter.jpg",
     pendahuluan:
-      "Jupiter adalah planet terbesar dan memiliki atmosfer berlapis serta badai raksasa bernama Great Red Spot.",
+      'Jupiter adalah planet terbesar di Tata Surya dan sering dijuluki sebagai "raja planet". Ukurannya yang masif membuatnya berperan besar dalam menjaga keseimbangan Tata Surya. Meski terlihat indah dengan pola awannya yang berwarna-warni, Jupiter adalah dunia gas yang penuh badai dahsyat dan tekanan ekstrem yang tak terbayangkan',
     facts: [
       {
-        title: "Gas Raksasa",
+        title: "Bintik Merah Besar adalah Badai Raksasa yang Tak Pernah Padam",
         paragraf: [
-          "Jupiter sebagian besar terdiri dari hidrogen dan helium, tanpa permukaan padat seperti Bumi.",
+          "Salah satu ciri paling terkenal Jupiter adalah Great Red Spot, badai raksasa yang sudah berlangsung lebih dari 300 tahun. Ukurannya sangat besar—bahkan cukup luas untuk “menelan” Bumi sekaligus. Angin di dalam badai ini bisa mencapai kecepatan ratusan kilometer per jam.",
+          "Yang membuatnya luar biasa, badai ini tidak menunjukkan tanda-tanda akan hilang dalam waktu dekat. Meski ukurannya perlahan menyusut, energi di atmosfer Jupiter terus menjaga badai ini tetap hidup selama berabad-abad.",
         ],
       },
       {
-        title: "Banyak Satelit",
+        title: "Jupiter Memiliki Medan Magnet Terkuat di Tata Surya",
         paragraf: [
-          "Jupiter memiliki puluhan satelit alami, termasuk empat satelit besar yang ditemukan Galileo.",
+          "Medan magnet Jupiter adalah yang paling kuat di antara semua planet. Kekuatan magnetnya begitu besar hingga membentuk wilayah pelindung raksasa bernama magnetosfer, yang bahkan jauh lebih besar daripada Matahari jika bisa dilihat secara kasat mata.",
+          "Medan magnet ini memerangkap partikel berenergi tinggi yang berbahaya. Jika manusia berada terlalu dekat tanpa perlindungan, radiasinya bisa sangat mematikan. Namun, di sisi lain, medan ini juga menciptakan aurora yang jauh lebih kuat dibanding aurora di Bumi",
+        ],
+      },
+      {
+        title: "Jupiter Bisa Menampung Puluhan Planet Seukuran Bumi",
+        paragraf: [
+          "Ukuran Jupiter benar-benar luar biasa. Volume Jupiter cukup besar untuk menampung lebih dari 1.300 Bumi di dalamnya. Jika dibandingkan dengan planet lain, Jupiter sendiri sudah memiliki massa lebih besar daripada gabungan semua planet lain di Tata Surya.",
+          "Meski sangat besar, Jupiter masih belum cukup masif untuk menjadi bintang. Ia kekurangan massa sekitar 80 kali lipat untuk memicu reaksi fusi nuklir seperti Matahari.",
+        ],
+      },
+      {
+        title: "Sistem Bulan Jupiter seperti Tata Surya Mini",
+        paragraf: [
+          "Jupiter memiliki lebih dari 90 bulan, dengan empat bulan utamanya—Io, Europa, Ganymede, dan Callisto—dikenal sebagai Bulan Galilea. Keempatnya sangat berbeda satu sama lain dan memiliki karakter unik.",
+          "Europa, misalnya, diyakini memiliki lautan air asin di bawah lapisan esnya, sementara Io adalah benda paling aktif secara vulkanik di Tata Surya. Sistem bulan ini sering dianggap sebagai “laboratorium alami” untuk mempelajari pembentukan planet dan potensi kehidupan.",
+        ],
+      },
+      {
+        title: "Jupiter Berperan sebagai Pelindung Tata Surya Dalam",
+        paragraf: [
+          "Karena massanya yang sangat besar, Jupiter berfungsi seperti tameng gravitasi. Planet ini mampu menarik atau membelokkan asteroid dan komet yang berpotensi mengancam planet bagian dalam, termasuk Bumi.",
+          "Namun perannya tidak selalu sepenuhnya melindungi. Dalam beberapa kondisi, gravitasi Jupiter justru bisa mengarahkan objek luar angkasa ke jalur yang lebih berbahaya. Meski begitu, tanpa Jupiter, sejarah tabrakan di Tata Surya—termasuk di Bumi—kemungkinan akan jauh lebih brutal.",
         ],
       },
     ],

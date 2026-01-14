@@ -4,8 +4,9 @@ const planetData = {
   Venus:
     "Venus merupakan planet kedua dari Matahari. Venus sering disebut sebagai...",
   Bumi: "Tahukah kamu, kalau bumi adalah planet ketiga dari Matahari dan satu-satunya planet yang...",
-  Mars: "Disebut planet merah.",
-  Jupiter: "Planet terbesar di tata surya.",
+  Mars: "Mars dikenal sebagai Planet merah, bukan hanya karena warnanya yang mencolok, tetapi juga karena planet ini...",
+  Jupiter:
+    'Jupiter adalah planet terbesar di Tata Surya dan sering dijuluki sebagai "raja planet". Ukurannya yang masif membuatnya...',
   Saturnus: "Dikenal dengan cincinnya.",
   Uranus: "Berputar menyamping.",
   Neptunus: "Planet terjauh & sangat dingin.",

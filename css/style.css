@@ -138,6 +138,11 @@ body{
     color: rgb(109, 162, 255);
 }
 
+/* modal */
+.desc-modal{
+    text-align: left;
+}
+
 /* Nomer untuk setiap Planet */
 
 /* numbered circular badge for gallery columns
