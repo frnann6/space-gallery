@@ -10,8 +10,10 @@ const planetData = {
     'Jupiter adalah planet terbesar di Tata Surya dan sering dijuluki sebagai "raja planet". Ukurannya yang masif membuatnya...',
   Saturnus:
     "Saturnus dikenal sebagai planet paling ikonik di Tata Surya berkat cincin indah yang mengelilinginya. Namun keindahan Saturnus...",
-  Uranus: "Berputar menyamping.",
-  Neptunus: "Planet terjauh & sangat dingin.",
+  Uranus:
+    "Uranus sering disebut sebagai planet paling aneh di Tata Surya. Bukan tanpa alasan, planet...",
+  Neptunus:
+    "Neptunus adalah planet terluar di Tata Surya dan juga salah satu yang paling misterius. Letaknya yang...",
 };
 
 // Use event delegation so dynamically-inserted .planet-box elements are handled

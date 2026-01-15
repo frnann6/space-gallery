@@ -278,22 +278,45 @@ const planets = [
   {
     slug: "uranus",
     nama: "Uranus",
-    date: "January",
+    date: "January 15",
     year: 2026,
-    img: "planet-img/uranus.jpg",
+    img: "planet-images/uranus.jpg",
     pendahuluan:
-      "Uranus unik karena poros rotasinya hampir sejajar dengan bidang orbit, sehingga berotasi miring.",
+      "Uranus sering disebut sebagai planet paling aneh di Tata Surya. Bukan tanpa alasan, planet es raksasa ini berputar dengan posisi miring ekstrem, seolah-olah “rebahan” saat mengelilingi Matahari. Letaknya yang jauh dan tampilannya yang tenang justru menyembunyikan banyak keunikan yang membuat Uranus berbeda dari planet mana pun.",
     facts: [
       {
-        title: "Rotasi Mirip Samping",
+        title: "Uranus Berputar dengan Posisi Miring Ekstrem",
         paragraf: [
-          "Sumbu Uranus miring hampir 98 derajat, membuat musim yang ekstrem berlangsung puluhan tahun.",
+          "Uranus memiliki kemiringan sumbu sekitar 98 derajat, yang berarti planet ini hampir sepenuhnya berputar menyamping. Akibatnya, salah satu kutub Uranus bisa menghadap Matahari selama puluhan tahun, sementara kutub lainnya berada dalam kegelapan total.",
+          "Fenomena ini menciptakan musim yang sangat ekstrem. Satu musim di Uranus bisa berlangsung sekitar 21 tahun Bumi, menjadikan perubahan lingkungan di planet ini sangat lambat namun dramatis.",
         ],
       },
       {
-        title: "Atmosfer Dingin",
+        title: "Uranus adalah Planet Terdingin di Tata Surya",
         paragraf: [
-          "Uranus sangat dingin dengan atmosfer yang mengandung metana yang memberi warna kebiruan.",
+          "Meskipun Neptunus lebih jauh dari Matahari, Uranus justru memegang rekor sebagai planet Terdingin, dengan suhu minimum sekitar -224°C. Ini membuat Uranus lebih dingin daripada Neptunus.",
+          "Yang membingungkan ilmuwan, Uranus hampir tidak memancarkan panas dari dalam dirinya. Berbeda dengan planet raksasa lain, Uranus seolah kehilangan sumber energi internalnya, dan penyebab pastinya masih menjadi misteri.",
+        ],
+      },
+      {
+        title: "Atmosfer Uranus Tampak Tenang, Tapi Menyimpan Kejutan",
+        paragraf: [
+          "Secara visual, Uranus terlihat tenang dan polos, tanpa pola badai besar yang mencolok. Namun pengamatan lebih detail menunjukkan adanya angin kencang dan badai tersembunyi di balik atmosfernya",
+          "Atmosfer Uranus di Dominasi hidrogen, helium, dan metana. Metana inilah yang menyerap cahaya merah dan memberikan warna biru kehijauan khas pada planet ini.",
+        ],
+      },
+      {
+        title: "Uranus Memiliki Sistem Cincin yang Tipis dan Gelap",
+        paragraf: [
+          "Banyak orang hanya mengenal cincin Saturnus, padahal Uranus juga memiliki cincin, meski jauh lebih tipis dan gelap. Cincin-cincin ini sulit diamati karena tidak memantulkan cahaya dengan baik.",
+          "Cincin Uranus kemungkinan terbentuk dari sisa-sisa bulan yang hancur akibat tabrakan. Meskipun tidak seindah Saturnus, cincin Uranus memberikan petunjuk penting tentang dinamika sistem planet",
+        ],
+      },
+      {
+        title: "Bulan-Bulan Uranus Terinspirasi dari Dunia Sastra",
+        paragraf: [
+          "Uranus memiliki lebih dari 20 bulan, dan yang unik, nama-namanya diambil dari tokoh karya William Shakespeare dan Alexander Pope, bukan dari mitologi Romawi atau Yunani seperti planet lain.",
+          "Beberapa bulan utamanya, seperti Titania, Oberon, dan Miranda, memiliki permukaan yang sangat aneh, dengan tebing curam, retakan raksasa, dan struktur yang tampak seperti hasil tabrakan besar di masa lalu.",
         ],
       },
     ],
@@ -301,21 +324,46 @@ const planets = [
   {
     slug: "neptune",
     nama: "Neptunus",
-    date: "January",
+    date: "January 15",
     year: 2026,
-    img: "planet-img/neptunus.jpg",
+    img: "planet-images/neptunus.jpg",
     pendahuluan:
-      "Neptunus adalah planet terjauh di tata surya yang kita kenal, dengan angin tercepat di antara planet-planet.",
+      "Neptunus adalah planet terluar di Tata Surya dan juga salah satu yang paling misterius. Letaknya yang sangat jauh dari Matahari membuatnya jarang disorot, padahal Neptunus menyimpan fenomena ekstrem, mulai dari angin tercepat, suhu sangat dingin, hingga badai raksasa. Neptunus adalah contoh nyata bahwa keindahan dan kekacauan bisa berjalan bersamaan di alam semesta.",
     facts: [
       {
-        title: "Angin Kencang",
+        title: "Neptunus Memiliki Angin Tercepat di Tata Surya",
         paragraf: [
-          "Neptunus memiliki angin supersonik yang dapat mencapai ribuan kilometer per jam.",
+          "Meskipun jauh dari Matahari dan sangat dingin, Neptunus justru memiliki angin tercepat di antara semua planet. Kecepatan anginnya bisa mencapai lebih dari 2.000 km/jam, jauh melampaui badai terkuat di Bumi.",
+          "Para ilmuwan masih meneliti bagaimana planet yang menerima sangat sedikit energi Matahari bisa menghasilkan angin sekuat ini. Diduga, panas dari dalam Neptunus berperan besar dalam menggerakkan atmosfernya yang ekstrem.",
         ],
       },
       {
-        title: "Warna Biru",
-        paragraf: ["Warna biru dipengaruhi oleh metana di atmosfernya."],
+        title: "Neptunus adalah Planet dengan Suhu Sangat Ekstrem",
+        paragraf: [
+          "Suhu di Neptunus bisa turun hingga sekitar −214°C, menjadikannya salah satu tempat terdingin di Tata Surya. Pada suhu ini, hampir semua gas akan membeku jika berada di Bumi.",
+          "Namun menariknya, Neptunus masih memancarkan panas dari dalam planetnya sendiri. Energi internal ini bahkan lebih besar dibanding energi yang diterimanya dari Matahari, menunjukkan bahwa Neptunus masih aktif secara internal.",
+        ],
+      },
+      {
+        title: "Warna Biru Neptunus Bukan Sekadar Pantulan Laut",
+        paragraf: [
+          "Namun menariknya, Neptunus masih memancarkan panas dari dalam planetnya sendiri. Energi internal ini bahkan lebih besar dibanding energi yang diterimanya dari Matahari, menunjukkan bahwa Neptunus masih aktif secara internal.",
+          "Selain metana, partikel-partikel di atmosfer Neptunus juga ikut memengaruhi warna dan kontras awannya. Hasilnya adalah tampilan biru yang lebih gelap dan dramatis dibanding Uranus.",
+        ],
+      },
+      {
+        title: "Neptunus Pernah Memiliki Badai Raksasa Gelap",
+        paragraf: [
+          "Neptunus memiliki badai besar yang dikenal sebagai Great Dark Spot, mirip dengan Bintik Merah Besar di Jupiter. Badai ini pertama kali diamati oleh wahana Voyager 2 pada akhir 1980-an.",
+          "Yang unik, badai di Neptunus bisa muncul dan menghilang dalam hitungan tahun. Ini menunjukkan bahwa atmosfer Neptunus sangat dinamis dan berubah jauh lebih cepat daripada planet gas raksasa lainnya.",
+        ],
+      },
+      {
+        title: "Triton adalah Bulan Aneh yang Bergerak Terbalik",
+        paragraf: [
+          "Bulan terbesar Neptunus, Triton, mengorbit dengan arah yang berlawanan dibanding kebanyakan bulan lain di Tata Surya. Hal ini membuat ilmuwan yakin bahwa Triton bukan terbentuk bersama Neptunus, melainkan tertangkap gravitasi dari wilayah Sabuk Kuiper.",
+          "Triton juga memiliki aktivitas geologis unik, termasuk geyser nitrogen yang menyembur dari permukaannya. Ini menjadikan Triton salah satu bulan paling menarik dan tidak biasa di Tata Surya.",
+        ],
       },
     ],
   },

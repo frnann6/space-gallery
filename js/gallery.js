@@ -11,7 +11,7 @@ const planets = [
   { name: "Mars", slug: "mars", img: "planet-images/mars.jpg" },
   { name: "Jupiter", slug: "jupiter", img: "planet-images/jupiter.jpg" },
   { name: "Saturnus", slug: "saturn", img: "planet-images/Saturnus.jpg" },
-  { name: "Uranus", slug: "uranus", img: "img/dark-blue.jpg" },
+  { name: "Uranus", slug: "uranus", img: "planet-images/uranus.jpg" },
   { name: "Neptunus", slug: "neptune", img: "planet-images/neptunus.jpg" },
 ];
 
