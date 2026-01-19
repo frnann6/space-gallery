@@ -1,4 +1,4 @@
-// gallery
+// Facts
 const planets = [
   {
     name: "Merkurius",
