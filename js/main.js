@@ -4,3 +4,4 @@ import "./content.js";
 import "./facts.js";
 import "./modal.js";
 import "./planets.js";
+import "./transition.js";
