@@ -146,11 +146,30 @@ body{
 /* - Awal */
 .vertical-modal .modal-dialog{
     transform: scaleY(0.25);
+    opacity: 0;
     transition: 
-    transform 0.3s ,
-    opacity 0.3s ease;
+    transform 0.4s ,
+    opacity 0.4s ease;
     transform-origin: center;
 }
+
+/* saat muncul */
+.vertical-modal.show .modal-dialog{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+/* isi modal */
+.vertical-content{
+    border-radius: 24px;
+    overflow: hidden;
+    transition: border-radius 0.45s ease;
+}
+
+.vertical-modal.show .vertical-content{
+    border-radius: 0;
+}
+
 
 /* Sun */
 #sun {
